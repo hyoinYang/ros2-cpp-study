@@ -1,3 +1,7 @@
+# For VScode
+.vscode/
+*.code-workspace
+
 # Prerequisites
 *.d
 
