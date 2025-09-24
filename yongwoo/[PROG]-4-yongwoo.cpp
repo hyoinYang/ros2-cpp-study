@@ -11,6 +11,7 @@ int main()
 
 void list_04_20()
 {
+    // 문자열 상수와 포인터와의 관계
     using namespace std;
     char animal[20] = "bear";
     char* ps;
