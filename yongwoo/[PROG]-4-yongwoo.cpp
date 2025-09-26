@@ -11,12 +11,12 @@ void prog_04_08(void);
 
 int main()
 {
-    // list_04_20();
+    list_04_20();
     // prog_04_01();
     // prog_04_02();
     // prog_04_05();
     // prog_04_07();
-    prog_04_08();
+    // prog_04_08();
 
     return 0;
 }
@@ -32,6 +32,7 @@ void list_04_20()
     //cin >> animal;
 
     ps = animal;
+    //*(ps+1) = 'D';
     //ps = "bear"; // 문자열 상수는 char*로 변환이 안됨
     cout <<"ps : " << ps << "s!\n";
     cout << "* ps : " << *ps << endl;
