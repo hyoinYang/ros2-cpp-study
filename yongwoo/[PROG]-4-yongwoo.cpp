@@ -42,6 +42,8 @@ void list_04_20()
     cout << "&animal[0] : " << &animal[0] << endl;
     cout << "(int *) ps : " << (int *) ps << endl;
     cout << "(int *) animal : " << (int*) animal << endl;
+    // cout << "(int) ps" << (int) ps <<endl; //< error char* -> int
+    // cout << "(int) animal" << (int) animal <<endl; //<error char* -> int
 
 
     cout << "animal : " << animal << endl;
