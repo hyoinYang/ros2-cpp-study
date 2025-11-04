@@ -1,3 +1,13 @@
+# For binary files without expansion
+# Ignore all
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+# Ignore hidden files
+.*
+
 # For VScode
 .vscode/
 *.code-workspace
