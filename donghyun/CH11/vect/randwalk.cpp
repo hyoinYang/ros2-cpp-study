@@ -28,9 +28,9 @@ int main()
             result = result + step;
             steps++;
         }
-        cout << steps << " 걸음을 걸은 후 술고래의 현재 위치: " << result << endl;
+        cout << steps << " 걸음을 걸은 후 술고래의 현재 위치:\n" << result << endl;
         result.polar_mode();
-        cout << " 또는\n" << result << endl;
+        cout << "또는\n" << result << endl;
         cout << "걸음당 기둥에서 벗어난 평균 거리 = " << result.magval() / steps << endl;
         steps = 0;
         result.reset(0.0, 0.0);
