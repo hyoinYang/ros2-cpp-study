@@ -3,7 +3,7 @@
 #define WORKERMI_H_
 
 #include <string>
-#include <random> // 랜덤 함수를 위해 추가
+#include <random> 
 
 class Person // Person 클래스
 {

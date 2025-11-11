@@ -58,6 +58,32 @@ int main()
     for (i = 0; i < ct; i++)
        delete lolas[i];
 
+
+    cout << "\n--- Testing BadDude Draws ---\n";
+    
+    BadDude bd("Clint", "Eastwood", 5, 0.45);
+    cout << "\nBadDude Object created: Clint Eastwood\n";
+
+    bd.Show();
+
+    double draw_time = bd.Gdraw();
+    cout << "Gdraw() result (Draw Time): " << draw_time << endl;
+    
+    int card1 = bd.Cdraw();
+    cout << "Cdraw() result (Card 1): " << card1 << endl;
+    
+    int card2 = bd.Cdraw(); 
+    cout << "Cdraw() result (Card 2 - must be random): " << card2 << endl;
+
+    if (card1 != card2)
+    {
+        cout << "Confirmation: Cdraw() successfully returned two different random cards.\n";
+    }
+    else
+    {
+        cout << "Confirmation: Cdraw() returned the same card twice (possible but rare in 1/52 chance).\n";
+    }
+
     cout << "Bye.\n";
 
     return 0; 
